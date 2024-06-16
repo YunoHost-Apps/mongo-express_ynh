@@ -46,7 +46,7 @@ ram.runtime = "50M"
     ask.fr = "Choisissez la version de Mongo a installer ou 'None' si Mongo est déjà installé"
     type = "select"
     choices = ["None", "4.4", "5.0", "6.0", "7.0"]
-    default = "6.0"
+    default = "7.0"
 
 [resources]
     [resources.sources.main]
