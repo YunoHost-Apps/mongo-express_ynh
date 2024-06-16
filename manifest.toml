@@ -18,7 +18,7 @@ cpe = "cpe:2.3:a:mongo-express_project:mongo-express"
 
 [integration]
 yunohost = ">= 11.2"
-architectures = ["amd64", "arm64"]
+architectures = ["amd64"]
 multi_instance = false
 
 ldap = "not_relevant"
