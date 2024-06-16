@@ -1,6 +1,6 @@
 #!/bin/bash
 
-readonly YNH_DEFAULT_MONGO_VERSION=7.0
+readonly YNH_DEFAULT_MONGO_VERSION=4.4
 # Declare the actual MongoDB version to use: 4.4 ; 5.0 ; 6.0 ; 7.0
 # A packager willing to use another version of MongoDB can override the variable into its _common.sh.
 YNH_MONGO_VERSION=${YNH_MONGO_VERSION:-$YNH_DEFAULT_MONGO_VERSION}
@@ -322,7 +322,7 @@ ynh_install_mongo() {
   fi
   if [[ "$mongo_version" == "4.4" ]]; then
     ynh_print_warn --message="Switching to buster package install for Mongo 4.4."
-    mongo_debian_release=bullseye
+    mongo_debian_release=buster
     mongo_packages="mongodb-org-server mongodb-database-tools mongodb-mongosh-shared-openssl11"
   fi
 
