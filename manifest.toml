@@ -7,7 +7,7 @@ name = "Mongo Express"
 description.en = "Admin server for Mongo and optionally Mongo database"
 description.fr = "Serveur d'administration pour Mongo ainsi qu'optionnellement une base Mongo"
 
-version = "1.0.2~ynh1"
+version = "1.0.2~ynh2"
 
 maintainers = ["Gerard Collin"]
 
