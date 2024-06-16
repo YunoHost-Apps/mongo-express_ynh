@@ -18,7 +18,7 @@ cpe = "cpe:2.3:a:mongo-express_project:mongo-express"
 
 [integration]
 yunohost = ">= 11.2"
-architectures = ["amd64"]
+architectures = ["amd64", "arm64"]
 multi_instance = false
 
 ldap = "not_relevant"
@@ -45,7 +45,7 @@ ram.runtime = "50M"
     ask.en = "Select the major version of Mongo to install or 'None' if already installed"
     ask.fr = "Choisissez la version de Mongo a installer ou 'None' si Mongo est déjà installé"
     type = "select"
-    choices = ["None", "4.4", "5.0", "6.0"]
+    choices = ["None", "4.4", "5.0", "6.0", "7.0"]
     default = "6.0"
 
 [resources]
