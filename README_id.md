@@ -38,7 +38,7 @@ You can as well install a Mongo database - version 4, 5 or 6 in your yunohost se
 - Supports replica sets
 
 
-**Versi terkirim:** 1.0.2~ynh4
+**Versi terkirim:** 1.0.2~ynh5
 
 ## Tangkapan Layar
 
