@@ -1,8 +1,8 @@
 #!/bin/bash
 
 source _common.sh
-source /usr/share/yunohost/helpers
 source _mongo_helper.sh
+source /usr/share/yunohost/helpers
 
 #=================================================
 # INSTALL DEPENDENCIES
