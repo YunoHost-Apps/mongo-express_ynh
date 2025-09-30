@@ -7,7 +7,7 @@ name = "Mongo Express"
 description.en = "Admin server for Mongo and optionally Mongo database"
 description.fr = "Serveur d'administration pour Mongo ainsi qu'optionnellement une base Mongo"
 
-version = "1.1.0-rc-3~ynh1"
+version = "1.1.0-rc-3~ynh2"
 
 maintainers = ["Gerard Collin"]
 
@@ -23,7 +23,6 @@ architectures = ["amd64"]
 multi_instance = false
 
 ldap = "not_relevant"
-
 sso = "not_relevant"
 
 disk = "50M"
@@ -66,8 +65,11 @@ autoupdate.asset = "tarball"
 [resources.permissions]
 main.url = "/"
 
-[resources.ports]
-main.default = 8096
+    [resources.ports]
+    main.default = 8096
 
-[resources.nodejs]
-version = "20"
+    [resources.apt]
+    packages = "yarn"
+
+    [resources.nodejs]
+    version = "20"

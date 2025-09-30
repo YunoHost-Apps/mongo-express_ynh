@@ -2,8 +2,8 @@
 
 # Keep this path for calling _common.sh inside the execution's context of backup and restore scripts
 source ../settings/scripts/_common.sh
-source /usr/share/yunohost/helpers
 source ../settings/scripts/_mongo_helper.sh
+source /usr/share/yunohost/helpers
 
 #=================================================
 # RESTORE THE APP MAIN DIR
@@ -15,6 +15,8 @@ ynh_restore "$install_dir"
 #=================================================
 # REINSTALL DEPENDENCIES
 #=================================================
+ynh_script_progression "Reinstalling NodeJS..."
+
 # Install mongo server only if asked to
 if [ "$mongo_version" != "None" ]; then
     ynh_script_progression "Reinstalling MongoDB..."
@@ -33,6 +35,7 @@ ynh_restore "/etc/nginx/conf.d/$domain.d/$app.conf"
 
 ynh_restore "/etc/systemd/system/$app.service"
 systemctl enable "$app.service" --quiet
+
 yunohost service add "$app" --description="Mongo Express to easily administer your Mongo databases" --log="/var/log/$app/$app.log"
 
 ynh_restore "/etc/logrotate.d/$app"

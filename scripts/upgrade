@@ -1,8 +1,8 @@
 #!/bin/bash
 
 source _common.sh
-source /usr/share/yunohost/helpers
 source _mongo_helper.sh
+source /usr/share/yunohost/helpers
 
 #=================================================
 # STOP SYSTEMD SERVICE
@@ -48,6 +48,7 @@ ynh_config_add_nginx
 
 # Create a dedicated systemd config
 ynh_config_add_systemd
+
 yunohost service add "$app" --description="Mongo Express to easily administer your Mongo databases" --log="/var/log/$app/$app.log"
 
 # Use logrotate to manage app-specific logfile(s)
