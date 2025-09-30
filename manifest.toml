@@ -65,11 +65,11 @@ autoupdate.asset = "tarball"
 [resources.permissions]
 main.url = "/"
 
-    [resources.ports]
-    main.default = 8096
+[resources.ports]
+main.default = 8096
 
-    [resources.apt]
-    packages = "yarn"
+[resources.apt]
+packages = "yarn"
 
-    [resources.nodejs]
-    version = "20"
+[resources.nodejs]
+version = "20"
