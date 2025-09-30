@@ -10,7 +10,6 @@ It shall NOT be edited by hand.
 
 Admin server for Mongo and optionally Mongo database
 
-[![Version: 1.0.2~ynh7](https://img.shields.io/badge/Version-1.0.2~ynh7-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/mongo-express/)
 [![Version: 1.1.0-rc-3~ynh2](https://img.shields.io/badge/Version-1.1.0--rc--3~ynh2-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/mongo-express/)
 
 <div align="center">
