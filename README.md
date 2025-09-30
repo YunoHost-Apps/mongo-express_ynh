@@ -10,12 +10,18 @@ It shall NOT be edited by hand.
 
 Admin server for Mongo and optionally Mongo database
 
-[![Version: 1.0.2~ynh7](https://img.shields.io/badge/Version-1.0.2~ynh7-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/mongo-express/)
+[![Version: 1.0.2~ynh7](https://img.shields.io/badge/Version-1.0.2~ynh7-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/mongo-express/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/mongo-express"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
 <a href="https://github.com/YunoHost-Apps/mongo-express_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
+
+
+## Screenshots
+![Screenshot of Mongo Express](./doc/screenshots/collection-view.png)
+![Screenshot of Mongo Express](./doc/screenshots/databases-view.png)
+![Screenshot of Mongo Express](./doc/screenshots/document-edit.png)
 
 ## 📦 Developer info
 
