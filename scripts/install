@@ -7,9 +7,7 @@ source _mongo_helper.sh
 #=================================================
 # INSTALL DEPENDENCIES
 #=================================================
-ynh_script_progression "Installing NodeJS & Yarn..."
-
-ynh_nodejs_install
+ynh_script_progression "Installing NodeJS..."
 
 # Install mongo server only if asked to
 if [ "$mongo_version" != "None" ]; then
@@ -45,15 +43,15 @@ pushd "$install_dir"
         mv package.json package.json.mov
 
     fi
-    _install_yarn
+
     if [ -f "package.json.mov" ]; then
         mv package.json.mov package.json
 
     fi
       # patch the version of html-entities until it is fixed upstream
     ynh_replace --match="\"html-entities\": \"^2.3.3\"" --replace="\"html-entities\": \"~2.3.3\"" --file=package.json
-    ynh_exec_as_app "$ynh_yarn" install
-    ynh_exec_as_app $nodejs_dir/npm run build
+    ynh_exec_as_app yarn install
+    ynh_exec_as_app npm run build
 popd
 
 #=================================================
