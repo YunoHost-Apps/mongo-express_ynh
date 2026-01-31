@@ -6,16 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="64d4b817-665f-4b81-a2cb-414917b75bbc" name="Changes" comment="Adapted to support new node resource">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/.env" beforeDir="false" afterPath="$PROJECT_DIR$/conf/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.toml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/install" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/upgrade" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/upgrade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.toml" beforeDir="false" afterPath="$PROJECT_DIR$/tests.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="31" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -40,6 +40,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -50,13 +54,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHELLCHECK.PATH": "/home/gc-garunda/.local/share/JetBrains/WebStorm2025.2/Shell Script/shellcheck",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "1.1-rc3",
-    "last_opened_file_path": "/home/gc-garunda/devs/github/mongo-express_ynh",
+    "git-widget-placeholder": "testing",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/home/gc-garunda/devs/yunohost/ynh-dev/custom-catalog/cac-proxy_ynh",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +72,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1770901217462" />
+    <option name="spentUsd" value="0.004104" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="9" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -74,7 +88,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
       </set>
     </attachedChunks>
   </component>
@@ -89,6 +103,8 @@
       <workItem from="1671184864536" duration="784000" />
       <workItem from="1758129881500" duration="1751000" />
       <workItem from="1758210622499" duration="104000" />
+      <workItem from="1758211317986" duration="293000" />
+      <workItem from="1769849016261" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="First working release">
       <created>1671184974283</created>
@@ -110,6 +126,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First working release" />
