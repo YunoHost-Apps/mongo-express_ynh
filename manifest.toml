@@ -7,7 +7,7 @@ name = "Mongo Express"
 description.en = "Admin server for Mongo and optionally Mongo database"
 description.fr = "Serveur d'administration pour Mongo ainsi qu'optionnellement une base Mongo"
 
-version = "1.1.0-rc-3~ynh2"
+version = "1.1.0-rc-3~ynh4"
 
 maintainers = ["Gerard Collin"]
 
@@ -17,7 +17,7 @@ code = "https://github.com/mongo-express/mongo-express"
 cpe = "cpe:2.3:a:mongo-express_project:mongo-express"
 
 [integration]
-yunohost = ">= 12.1.17"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = ["amd64"]
 multi_instance = false
@@ -45,8 +45,8 @@ default = "visitors"
 ask.en = "Select the major version of Mongo to install or 'None' if already installed"
 ask.fr = "Choisissez la version de Mongo a installer ou 'None' si Mongo est déjà installé"
 type = "select"
-choices = ["None", "4.4", "5.0", "6.0", "7.0"]
-default = "7.0"
+choices = ["None", "7.0", "8.0"]
+default = "8.0"
 
 [resources]
 [resources.sources.main]
@@ -65,11 +65,11 @@ autoupdate.asset = "tarball"
 [resources.permissions]
 main.url = "/"
 
-    [resources.ports]
-    main.default = 8096
+[resources.ports]
+main.default = 8096
 
-    [resources.apt]
-    packages = "yarn"
+[resources.apt]
+packages = ""
 
-    [resources.nodejs]
-    version = "20"
+[resources.nodejs]
+version = "20"
