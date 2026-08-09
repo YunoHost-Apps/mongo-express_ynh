@@ -16,14 +16,8 @@ ynh_systemctl --service="$app" --action="stop"
 #=================================================
 ynh_script_progression "Installing NodeJS"
 
-# Install mongo server only if asked to
-if [ "$mongo_version" != "None" ]; then
-    ynh_script_progression "Installing MongoDB..."
-    ynh_install_mongo
-else
-    # gives the mongo service name for the rest of installation
-    mongodb_servicename=mongod
-fi
+ynh_script_progression "Installing MongoDB..."
+ynh_install_mongo
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
