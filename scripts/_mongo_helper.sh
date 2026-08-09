@@ -250,7 +250,6 @@ ynh_install_mongo() {
     fi
 
     local mongo_debian_release=$YNH_DEBIAN_VERSION
-
     if [[ "$mongo_debian_release" == "bookworm" ]]; then
       if [[ "$mongo_version" != "8."* && "$mongo_version" != "7."* ]]; then
           ynh_print_warn "Switched to Mongo v8 as $mongo_version is not compatible with $mongo_debian_release"

@@ -7,7 +7,7 @@ name = "Mongo Express"
 description.en = "Admin server for Mongo and optionally Mongo database"
 description.fr = "Serveur d'administration pour Mongo ainsi qu'optionnellement une base Mongo"
 
-version = "1.1.0-rc-3~ynh4"
+version = "1.1.0-rc-4~ynh1"
 
 maintainers = ["Gerard Collin"]
 
@@ -41,17 +41,10 @@ default = "/mongo"
 type = "group"
 default = "visitors"
 
-[install.mongo_version]
-ask.en = "Select the major version of Mongo to install or 'None' if already installed"
-ask.fr = "Choisissez la version de Mongo a installer ou 'None' si Mongo est déjà installé"
-type = "select"
-choices = ["None", "7.0", "8.0"]
-default = "8.0"
-
 [resources]
 [resources.sources.main]
-url = "https://github.com/gcollin/mongo-express/releases/download/v1.1.0-rc3/mongo-express-1.1.0-rc-3.tgz"
-sha256 = "bbfbc60369d9a8e6297caa99e0e363eb92815c790d7995de783e6a66d0596127"
+url = "https://github.com/gcollin/mongo-express/releases/download/v1.1.0-rc-4/mongo-express-1.1.0-rc-4.tgz"
+sha256 = "2e2a1bed38b9337cb0e7155e6a11f07f74fca24a672019ac0b54080993c4d39c"
 
 autoupdate.strategy = "latest_github_release"
 autoupdate.asset = "tarball"
@@ -67,9 +60,6 @@ main.url = "/"
 
 [resources.ports]
 main.default = 8096
-
-[resources.apt]
-packages = ""
 
 [resources.nodejs]
 version = "20"

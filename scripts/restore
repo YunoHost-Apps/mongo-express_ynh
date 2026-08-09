@@ -15,16 +15,9 @@ ynh_restore "$install_dir"
 #=================================================
 # REINSTALL DEPENDENCIES
 #=================================================
-ynh_script_progression "Reinstalling NodeJS..."
-
-# Install mongo server only if asked to
-if [ "$mongo_version" != "None" ]; then
-    ynh_script_progression "Reinstalling MongoDB..."
-    ynh_install_mongo
-else
-    # gives the mongo service name for the rest of installation
-    mongodb_servicename=mongod
-fi
+# Install mongo server
+ynh_script_progression "Reinstalling MongoDB..."
+ynh_install_mongo
 
 #=================================================
 # RESTORE SYSTEM CONFIGURATIONS
