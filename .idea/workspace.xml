@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64d4b817-665f-4b81-a2cb-414917b75bbc" name="Changes" comment="upgrade to 1.1.0-rc3 pre-built packages">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.toml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/_common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/_common.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/_mongo_helper.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/_mongo_helper.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/_mongo_helper.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/install" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/restore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/restore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/upgrade" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/upgrade" afterDir="false" />
@@ -20,7 +18,6 @@
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="30" />
-    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -36,12 +33,12 @@
     &quot;assignee&quot;: &quot;gcollin&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/gcollin/mongo-express_ynh.git&quot;,
-    &quot;accountId&quot;: &quot;6ea40ca6-a5eb-4acb-b1fe-f3b6f21db3fc&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/YunoHost-Apps/mongo-express_ynh.git",
+    "accountId": "6ea40ca6-a5eb-4acb-b1fe-f3b6f21db3fc"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,31 +55,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHELLCHECK.PATH": "/home/gc-garunda/.local/share/JetBrains/WebStorm2025.2/Shell Script/shellcheck",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "testing",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/home/gc-garunda/devs/ynh-dev/my-apps/dont-code_ynh",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/home/gc-garunda/.local/share/JetBrains/WebStorm2025.2/Shell Script/shellcheck&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;testing&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gc-garunda/devs/ynh-dev/my-apps/dont-code_ynh&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.8665.259" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10315.144" />
       </set>
     </attachedChunks>
   </component>
@@ -97,6 +94,7 @@
       <workItem from="1671184864536" duration="784000" />
       <workItem from="1769848657009" duration="350000" />
       <workItem from="1786261197827" duration="2174000" />
+      <workItem from="1788678858797" duration="382000" />
     </task>
     <task id="LOCAL-00001" summary="First working release">
       <created>1671184974283</created>
