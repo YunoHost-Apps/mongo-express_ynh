@@ -62,4 +62,4 @@ main.url = "/"
 main.default = 8096
 
 [resources.nodejs]
-version = "20"
+version = "22"
